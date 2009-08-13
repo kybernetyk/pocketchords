@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	03420AD01033014C00D55874 /* Chord Library */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Chord Library";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	03420ADC1033015D00D55874 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	03420ADD1033015D00D55874 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	03420ADE103301A500D55874 /* QNChordNode.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 735}}";
+			sepNavSelRange = "{275, 0}";
+			sepNavVisRange = "{0, 940}";
+			sepNavWindowFrame = "{{198, 75}, {1320, 953}}";
+		};
+	};
+	03420ADF103301A500D55874 /* QNChordNode.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 1445}}";
+			sepNavSelRange = "{1819, 0}";
+			sepNavVisRange = "{689, 1081}";
+		};
+	};
+	03420AE21033020000D55874 /* QNChordRoot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 735}}";
+			sepNavSelRange = "{537, 10}";
+			sepNavVisRange = "{0, 780}";
+			sepNavWindowFrame = "{{15, 75}, {1320, 953}}";
+		};
+	};
+	03420AE31033020000D55874 /* QNChordRoot.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 1802}}";
+			sepNavSelRange = "{253, 0}";
+			sepNavVisRange = "{0, 816}";
+		};
+	};
+	03420AE61033038600D55874 /* QNChordNote.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 735}}";
+			sepNavSelRange = "{239, 238}";
+			sepNavVisRange = "{0, 807}";
+		};
+	};
+	03420AE71033038600D55874 /* QNChordNote.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 1241}}";
+			sepNavSelRange = "{1555, 0}";
+			sepNavVisRange = "{74, 314}";
+		};
+	};
+	03D10F701033386B00B23069 /* ChordTypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 735}}";
+			sepNavSelRange = "{141, 17}";
+			sepNavVisRange = "{0, 213}";
+		};
+	};
+	03D111CC1034313B00B23069 /* QNAllChordsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 735}}";
+			sepNavSelRange = "{228, 0}";
+			sepNavVisRange = "{0, 263}";
+		};
+	};
+	03D111CD1034313B00B23069 /* QNAllChordsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 3893}}";
+			sepNavSelRange = "{4269, 0}";
+			sepNavVisRange = "{3010, 1009}";
+		};
+	};
+	03D113231034433500B23069 /* QNChordRootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 735}}";
+			sepNavSelRange = "{288, 16}";
+			sepNavVisRange = "{0, 446}";
+		};
+	};
+	03D113241034433500B23069 /* QNChordRootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 3553}}";
+			sepNavSelRange = "{2028, 0}";
+			sepNavVisRange = "{1372, 1241}";
+		};
+	};
+	03D113471034460700B23069 /* QNChordRootViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = QNChordRootViewController.m;
+		path = "/Users/jrk/Desktop/Code/Chord Library/Classes/QNChordRootViewController.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 3604}}";
+			sepNavSelRange = "{1698, 0}";
+			sepNavVisRange = "{2266, 492}";
+		};
+	};
+	03D11364103447E000B23069 /* QNChordNodeViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 391}}";
+			sepNavSelRange = "{315, 0}";
+			sepNavVisRange = "{168, 287}";
+		};
+	};
+	03D11365103447E000B23069 /* QNChordNodeViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 1309}}";
+			sepNavSelRange = "{1230, 0}";
+			sepNavVisRange = "{885, 474}";
+		};
+	};
+	03D1143710344F1D00B23069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D11364103447E000B23069 /* QNChordNodeViewController.h */;
+		name = "QNChordNodeViewController.h: 16";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 455;
+		vrLoc = 0;
+	};
+	03D1143910344F1D00B23069 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D11364103447E000B23069 /* QNChordNodeViewController.h */;
+		name = "QNChordNodeViewController.h: 16";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 455;
+		vrLoc = 0;
+	};
+	03EB2C56103451F700BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D10F701033386B00B23069 /* ChordTypes.h */;
+		name = "ChordTypes.h: 10";
+		rLen = 17;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
+	};
+	03EB2C58103451F700BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Chord_LibraryAppDelegate.m */;
+		name = "Chord_LibraryAppDelegate.m: 21";
+		rLen = 0;
+		rLoc = 390;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	03EB2C59103451F700BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D111CC1034313B00B23069 /* QNAllChordsViewController.h */;
+		name = "QNAllChordsViewController.h: 13";
+		rLen = 0;
+		rLoc = 228;
+		rType = 0;
+		vrLen = 263;
+		vrLoc = 0;
+	};
+	03EB2C5B103451F700BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D113231034433500B23069 /* QNChordRootViewController.h */;
+		name = "QNChordRootViewController.h: 15";
+		rLen = 16;
+		rLoc = 288;
+		rType = 0;
+		vrLen = 446;
+		vrLoc = 0;
+	};
+	03EB2C5D103451F700BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D113471034460700B23069 /* QNChordRootViewController.m */;
+		name = "QNChordRootViewController.m: 65";
+		rLen = 0;
+		rLoc = 1698;
+		rType = 0;
+		vrLen = 1180;
+		vrLoc = 35;
+	};
+	03EB2C5E103451F700BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D10F701033386B00B23069 /* ChordTypes.h */;
+		name = "ChordTypes.h: 10";
+		rLen = 17;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
+	};
+	03EB2C5F103451F700BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D11365103447E000B23069 /* QNChordNodeViewController.m */;
+		name = "QNChordNodeViewController.m: 29";
+		rLen = 0;
+		rLoc = 796;
+		rType = 0;
+		vrLen = 1249;
+		vrLoc = 0;
+	};
+	03EB2C60103451F700BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Chord_LibraryAppDelegate.m */;
+		name = "Chord_LibraryAppDelegate.m: 21";
+		rLen = 0;
+		rLoc = 390;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	03EB2C61103451F700BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D111CC1034313B00B23069 /* QNAllChordsViewController.h */;
+		name = "QNAllChordsViewController.h: 13";
+		rLen = 0;
+		rLoc = 228;
+		rType = 0;
+		vrLen = 263;
+		vrLoc = 0;
+	};
+	03EB2C62103451F700BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D111CD1034313B00B23069 /* QNAllChordsViewController.m */;
+		name = "QNAllChordsViewController.m: 159";
+		rLen = 0;
+		rLoc = 4269;
+		rType = 0;
+		vrLen = 1009;
+		vrLoc = 3010;
+	};
+	03EB2C63103451F700BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D113231034433500B23069 /* QNChordRootViewController.h */;
+		name = "QNChordRootViewController.h: 15";
+		rLen = 16;
+		rLoc = 288;
+		rType = 0;
+		vrLen = 446;
+		vrLoc = 0;
+	};
+	03EB2C671034525000BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D113471034460700B23069 /* QNChordRootViewController.m */;
+		name = "QNChordRootViewController.m: 65";
+		rLen = 0;
+		rLoc = 1698;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 0;
+	};
+	03EB2C681034525000BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D111CD1034313B00B23069 /* QNAllChordsViewController.m */;
+		name = "QNAllChordsViewController.m: 159";
+		rLen = 0;
+		rLoc = 4269;
+		rType = 0;
+		vrLen = 1009;
+		vrLoc = 3010;
+	};
+	03EB2C691034525000BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D113471034460700B23069 /* QNChordRootViewController.m */;
+		name = "QNChordRootViewController.m: 65";
+		rLen = 0;
+		rLoc = 1698;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 0;
+	};
+	03EB2C6A1034525000BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D111CD1034313B00B23069 /* QNAllChordsViewController.m */;
+		name = "QNAllChordsViewController.m: 159";
+		rLen = 0;
+		rLoc = 4269;
+		rType = 0;
+		vrLen = 1009;
+		vrLoc = 3010;
+	};
+	03EB2C871034559800BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D11365103447E000B23069 /* QNChordNodeViewController.m */;
+		name = "QNChordNodeViewController.m: 43";
+		rLen = 0;
+		rLoc = 1230;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 466;
+	};
+	03EB2C891034559800BF4202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03D11365103447E000B23069 /* QNChordNodeViewController.m */;
+		name = "QNChordNodeViewController.m: 43";
+		rLen = 0;
+		rLoc = 1230;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 466;
+	};
+	03EB2C9A1034566D00BF4202 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Chord_Library-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Users/jrk/Desktop/Code/Chord Library/Chord_Library-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	03EB2C9C10349BF200BF4202 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Chord_Library-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Users/jrk/Desktop/Code/Chord Library/Chord_Library-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	1D3623240D0F684500981E51 /* Chord_LibraryAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 391}}";
+			sepNavSelRange = "{621, 0}";
+			sepNavVisRange = "{167, 461}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Chord_LibraryAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 782}}";
+			sepNavSelRange = "{390, 0}";
+			sepNavVisRange = "{0, 923}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Chord Library */ = {
+		activeExec = 0;
+		executables = (
+			03420AD01033014C00D55874 /* Chord Library */,
+		);
+	};
+	28216C950DB411BC00E5133A /* FirstViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 306}}";
+			sepNavSelRange = "{215, 0}";
+			sepNavVisRange = "{50, 176}";
+		};
+	};
+	28A0AB4B0D9B1048005BE974 /* Chord_Library_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 212}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 195}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 03420AD01033014C00D55874 /* Chord Library */;
+		activeSDKPreference = iphonesimulator3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Chord Library */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Chord Library */,
+		);
+		codeSenseManager = 03420ADD1033015D00D55874 /* Code sense */;
+		executables = (
+			03420AD01033014C00D55874 /* Chord Library */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					1124,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1234,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 271863630;
+			PBXWorkspaceStateSaveDate = 271863630;
+		};
+		perUserProjectItems = {
+			03D1143710344F1D00B23069 /* PBXTextBookmark */ = 03D1143710344F1D00B23069 /* PBXTextBookmark */;
+			03D1143910344F1D00B23069 /* PBXTextBookmark */ = 03D1143910344F1D00B23069 /* PBXTextBookmark */;
+			03EB2C56103451F700BF4202 /* PBXTextBookmark */ = 03EB2C56103451F700BF4202 /* PBXTextBookmark */;
+			03EB2C58103451F700BF4202 /* PBXTextBookmark */ = 03EB2C58103451F700BF4202 /* PBXTextBookmark */;
+			03EB2C59103451F700BF4202 /* PBXTextBookmark */ = 03EB2C59103451F700BF4202 /* PBXTextBookmark */;
+			03EB2C5B103451F700BF4202 /* PBXTextBookmark */ = 03EB2C5B103451F700BF4202 /* PBXTextBookmark */;
+			03EB2C5D103451F700BF4202 /* PBXTextBookmark */ = 03EB2C5D103451F700BF4202 /* PBXTextBookmark */;
+			03EB2C5E103451F700BF4202 /* PBXTextBookmark */ = 03EB2C5E103451F700BF4202 /* PBXTextBookmark */;
+			03EB2C5F103451F700BF4202 /* PBXTextBookmark */ = 03EB2C5F103451F700BF4202 /* PBXTextBookmark */;
+			03EB2C60103451F700BF4202 /* PBXTextBookmark */ = 03EB2C60103451F700BF4202 /* PBXTextBookmark */;
+			03EB2C61103451F700BF4202 /* PBXTextBookmark */ = 03EB2C61103451F700BF4202 /* PBXTextBookmark */;
+			03EB2C62103451F700BF4202 /* PBXTextBookmark */ = 03EB2C62103451F700BF4202 /* PBXTextBookmark */;
+			03EB2C63103451F700BF4202 /* PBXTextBookmark */ = 03EB2C63103451F700BF4202 /* PBXTextBookmark */;
+			03EB2C671034525000BF4202 /* PBXTextBookmark */ = 03EB2C671034525000BF4202 /* PBXTextBookmark */;
+			03EB2C681034525000BF4202 /* PBXTextBookmark */ = 03EB2C681034525000BF4202 /* PBXTextBookmark */;
+			03EB2C691034525000BF4202 /* PBXTextBookmark */ = 03EB2C691034525000BF4202 /* PBXTextBookmark */;
+			03EB2C6A1034525000BF4202 /* PBXTextBookmark */ = 03EB2C6A1034525000BF4202 /* PBXTextBookmark */;
+			03EB2C871034559800BF4202 /* PBXTextBookmark */ = 03EB2C871034559800BF4202 /* PBXTextBookmark */;
+			03EB2C891034559800BF4202 /* PBXTextBookmark */ = 03EB2C891034559800BF4202 /* PBXTextBookmark */;
+			03EB2C9A1034566D00BF4202 /* PlistBookmark */ = 03EB2C9A1034566D00BF4202 /* PlistBookmark */;
+			03EB2C9C10349BF200BF4202 /* PlistBookmark */ = 03EB2C9C10349BF200BF4202 /* PlistBookmark */;
+		};
+		sourceControlManager = 03420ADC1033015D00D55874 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 306}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 306}";
+		};
+	};
+}
