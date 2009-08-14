@@ -305,7 +305,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
+									<integer>14</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -346,7 +346,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>03420AFA1033107A00D55874</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>QNChordNodeViewController.m</string>
+								<string>QNAllChordsViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -354,25 +354,26 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>03420AFB1033107A00D55874</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>QNChordNodeViewController.m</string>
+										<string>QNAllChordsViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>03F201081034E55D0058CBC3</string>
+										<string>0344CD8B1034E734001A67F3</string>
 										<key>history</key>
 										<array>
 											<string>03D1143710344F1D00B23069</string>
 											<string>03EB2C56103451F700BF4202</string>
 											<string>03EB2C59103451F700BF4202</string>
 											<string>03EB2C5B103451F700BF4202</string>
-											<string>03EB2C681034525000BF4202</string>
 											<string>03F200C71034E1770058CBC3</string>
-											<string>03F200F71034E54C0058CBC3</string>
 											<string>03F200F81034E54C0058CBC3</string>
 											<string>03F200F91034E54C0058CBC3</string>
 											<string>03F200FA1034E54C0058CBC3</string>
 											<string>03F200FB1034E54C0058CBC3</string>
-											<string>03F201061034E55C0058CBC3</string>
+											<string>0344CD781034E71F001A67F3</string>
+											<string>0344CD791034E71F001A67F3</string>
+											<string>0344CD7A1034E71F001A67F3</string>
+											<string>0344CD891034E731001A67F3</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -384,12 +385,14 @@
 											<string>03EB2C62103451F700BF4202</string>
 											<string>03EB2C63103451F700BF4202</string>
 											<string>03F200C91034E1770058CBC3</string>
-											<string>03F200FD1034E54C0058CBC3</string>
 											<string>03F200FE1034E54C0058CBC3</string>
 											<string>03F200FF1034E54C0058CBC3</string>
 											<string>03F201001034E54C0058CBC3</string>
 											<string>03F201011034E54C0058CBC3</string>
-											<string>03F201021034E54C0058CBC3</string>
+											<string>0344CD7B1034E71F001A67F3</string>
+											<string>0344CD7C1034E71F001A67F3</string>
+											<string>0344CD7D1034E71F001A67F3</string>
+											<string>0344CD7E1034E71F001A67F3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -512,11 +515,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>03F200BC1034E1500058CBC3</string>
+				<string>0344CD811034E71F001A67F3</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>03F200BD1034E1500058CBC3</string>
+				<string>0344CD821034E71F001A67F3</string>
 				<string>03420AFA1033107A00D55874</string>
-				<string>03F200BE1034E1500058CBC3</string>
+				<string>0344CD831034E71F001A67F3</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -661,13 +664,13 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>03F200BF1034E1500058CBC3</string>
+				<string>0344CD841034E71F001A67F3</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>03F200C01034E1500058CBC3</string>
-				<string>03F200C11034E1500058CBC3</string>
-				<string>03F200C21034E1500058CBC3</string>
-				<string>03F200C31034E1500058CBC3</string>
+				<string>0344CD851034E71F001A67F3</string>
+				<string>0344CD861034E71F001A67F3</string>
+				<string>0344CD871034E71F001A67F3</string>
+				<string>0344CD881034E71F001A67F3</string>
 				<string>03420AFA1033107A00D55874</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -683,7 +686,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>271902045.33124298</real>
+	<real>271902516.79861403</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>

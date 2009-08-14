@@ -54,12 +54,12 @@
 	{
 		//[allChords addObject: file];
 		NSString *filename = [[NSBundle mainBundle] pathForResource: file ofType:nil inDirectory:@"Chords"];
-		NSLog(@"loading chord root: %@",filename);
+		//NSLog(@"loading chord root: %@",filename);
 		
 		QNChordRoot *cr = [[QNChordRoot alloc] initWithDescriptionFromFile: filename];
 		if (!cr)
 		{
-			NSLog(@"error loading chord root %@!",file);
+			NSLog(@"error loading chord root %@ %@!",file,SOURCE_LOCATION);
 			exit(23);
 			
 			return -1;
