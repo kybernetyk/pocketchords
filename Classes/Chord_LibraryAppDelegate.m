@@ -16,8 +16,10 @@
 @synthesize allChordsNavigationController;
 
 
+
 - (void)applicationDidFinishLaunching:(UIApplication *)application 
 {
+
 	[window addSubview:tabBarController.view];
 }
 

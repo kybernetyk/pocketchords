@@ -20,7 +20,10 @@
 	if (self)
 	{
 		if (![self loadFromFile: filename])
+		{	
+			NSLog(@"QNChordRoot loadFromFile failed %@",SOURCE_LOCATION);
 			return nil;
+		}
 	}
 	return self;
 }
@@ -42,11 +45,17 @@
 	NSDictionary *rootDescription = [NSDictionary dictionaryWithContentsOfFile: filename];
 	if (!rootDescription)
 	{	
+		NSLog(@"root description invalid %@",SOURCE_LOCATION);
 		return NO;
 	}
 	
 	//cName = autoreleased string
 	NSString *cName = [rootDescription objectForKey:@"rootName"];
+	if (!cName)
+	{
+		NSLog(@"No name found in root description %@",SOURCE_LOCATION);
+		return NO;
+	}
 	//NSLog(@"cname: %@",cName);
 	
 	if (!chordName)
@@ -62,7 +71,7 @@
 		NSArray *nodeDescriptions = [rootDescription objectForKey:@"chordNodes"];
 		if (!nodeDescriptions)
 		{	
-			NSLog(@"no nodeDescription in QNChordRoot.m Linke 62");
+			NSLog(@"No nodes found in root description %@",SOURCE_LOCATION);
 			return NO;
 		}
 			
@@ -79,7 +88,8 @@
 			QNChordNode *theNode = [[QNChordNode alloc] initWithParentRoot: self andNodeDescription: nodeDescription];
 			if (!theNode)
 			{
-				NSLog(@"no node! %@",nodeDescription);
+				//NSLog(@"no node! %@",nodeDescription);
+				NSLog(@"node could not be created %@",SOURCE_LOCATION);
 				return NO;
 			}
 			

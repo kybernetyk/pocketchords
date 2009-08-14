@@ -25,14 +25,20 @@
 		//autorelease
 		NSString *name = [noteDescription objectForKey:@"noteName"];
 		if (!name)
+		{	
+			NSLog(@"No name found in note description %@",SOURCE_LOCATION);
 			return nil;
+		}
 
 		//copy - retaincount 1
 		noteName = [[NSString alloc] initWithString: name];
 		
 		NSNumber *fret = [noteDescription objectForKey:@"noteFret"];
 		if (!fret)
+		{	
+			NSLog(@"No fret found in note description %@",SOURCE_LOCATION);
 			return nil;
+		}
 		int iFret = [fret intValue];
 		
 		//assign - retaincount 1
@@ -41,7 +47,10 @@
 	
 		NSNumber *string = [noteDescription objectForKey:@"noteString"];
 		if (!string)
+		{	
+			NSLog(@"No string found in note description %@",SOURCE_LOCATION);
 			return nil;
+		}
 		int iString = [string intValue];
 		
 		//assign - retaincount 1
@@ -49,7 +58,10 @@
 		
 		NSNumber *finger = [noteDescription objectForKey:@"noteFinger"];
 		if (!finger)
+		{	
+			NSLog(@"No finger found in note description %@",SOURCE_LOCATION);
 			return nil;
+		}
 		int iFinger = [finger intValue];
 		
 		//assign - retaincount 1

@@ -40,10 +40,14 @@
 	
 	NSString *fn = [NSString stringWithFormat:@"Diagrams/%@",[nodeToView chordDiagramFilename]];
 	//[[NSBundle mainBundle] pathForResource:[node chordDiagramFilename] ofType:nil inDirectory:@"Diagrams"];
-	NSLog(@"%@",fn);
+	//NSLog(@"%@",fn);
 	
 	UIImage *img = [UIImage imageNamed: fn];
-	NSLog(@"%@",img);
+	if (!img)
+	{
+		NSLog(@"diagram image could not be created %@",SOURCE_LOCATION);
+	}
+	//NSLog(@"%@",img);
 	//[img retain];
 	
 	[diagramView setImage: img];
@@ -74,7 +78,7 @@
 
 - (void)dealloc 
 {
-	NSLog(@"bai from QNChordNodeViewController");
+	NSLog(@"bai from QNChordNodeViewController %@",SOURCE_LOCATION);
 	[super dealloc];
 }
 

@@ -39,7 +39,7 @@
 		NSString *diagramFilename = [description objectForKey:@"diagramFilename"];
 		if (!diagramFilename)
 		{
-			NSLog(@"No diagram filename!");
+			NSLog(@"No diagram filename found in node description %@",SOURCE_LOCATION);
 			return nil;
 		}
 		
@@ -57,7 +57,7 @@
 		NSString *name = [description objectForKey:@"chordName"];
 		if (!name)
 		{
-			NSLog(@"no name!");
+			NSLog(@"No chord name found in node description %@",SOURCE_LOCATION);
 			return nil;
 		}
 		
@@ -68,7 +68,10 @@
 		//autorelease		
 		NSNumber *type = [description objectForKey:@"chordType"];
 		if (!type)
+		{	
+			NSLog(@"No type found in node description %@",SOURCE_LOCATION);
 			return nil;
+		}
 		
 		int iType = [type intValue];
 		
@@ -79,7 +82,10 @@
 		//autorelease
 		NSNumber *fret = [description objectForKey:@"startingFret"];
 		if (!fret)
+		{	
+			NSLog(@"No fret found in node description %@",SOURCE_LOCATION);
 			return nil;
+		}
 
 		int iFret = [fret intValue];		
 
@@ -89,7 +95,10 @@
 		//autorelease
 		NSArray *noteDescriptions = [description objectForKey:@"noteDescriptions"];
 		if (!noteDescriptions)
+		{	
+			NSLog(@"No notes found in node description %@",SOURCE_LOCATION);
 			return nil;
+		}
 		
 		//autorelease
 		NSMutableArray *tmpArray = [NSMutableArray array];
@@ -99,6 +108,7 @@
 			QNChordNote *theNote = [[QNChordNote alloc] initWithDescription: noteDescription];
 			if (!theNote)
 			{
+				NSLog(@"not could not be created %@",SOURCE_LOCATION);
 				return nil;
 			}
 			
