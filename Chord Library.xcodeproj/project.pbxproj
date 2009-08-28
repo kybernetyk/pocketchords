@@ -39,19 +39,19 @@
 		03D10FDE10342C1300B23069 /* Chords */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chords; sourceTree = "<group>"; };
 		03D111CC1034313B00B23069 /* QNAllChordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNAllChordsViewController.h; sourceTree = "<group>"; };
 		03D111CD1034313B00B23069 /* QNAllChordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNAllChordsViewController.m; sourceTree = "<group>"; };
-		03D111CE1034313B00B23069 /* QNAllChordsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QNAllChordsViewController.xib; path = Classes/QNAllChordsViewController.xib; sourceTree = "<group>"; };
+		03D111CE1034313B00B23069 /* QNAllChordsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QNAllChordsViewController.xib; sourceTree = "<group>"; };
 		03D113231034433500B23069 /* QNChordRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNChordRootViewController.h; sourceTree = "<group>"; };
 		03D113241034433500B23069 /* QNChordRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNChordRootViewController.m; sourceTree = "<group>"; };
-		03D113251034433500B23069 /* QNChordRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QNChordRootViewController.xib; path = Classes/QNChordRootViewController.xib; sourceTree = "<group>"; };
+		03D113251034433500B23069 /* QNChordRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QNChordRootViewController.xib; sourceTree = "<group>"; };
 		03D11364103447E000B23069 /* QNChordNodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNChordNodeViewController.h; sourceTree = "<group>"; };
 		03D11365103447E000B23069 /* QNChordNodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNChordNodeViewController.m; sourceTree = "<group>"; };
-		03D11366103447E000B23069 /* QNChordNodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QNChordNodeViewController.xib; path = Classes/QNChordNodeViewController.xib; sourceTree = "<group>"; };
+		03D11366103447E000B23069 /* QNChordNodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QNChordNodeViewController.xib; sourceTree = "<group>"; };
 		03D113AF10344B1B00B23069 /* Diagrams */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Diagrams; sourceTree = "<group>"; };
 		03F200ED1034E32F0058CBC3 /* QNUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNUtil.h; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* Chord_LibraryAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chord_LibraryAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* Chord_LibraryAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chord_LibraryAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* Chord Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chord Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* ChordLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChordLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Chord Library.app */,
+				1D6058910D05DD3D006BFB54 /* ChordLibrary.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			);
 			name = "Chord Library";
 			productName = "Chord Library";
-			productReference = 1D6058910D05DD3D006BFB54 /* Chord Library.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* ChordLibrary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -272,7 +272,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Chord_Library_Prefix.pch;
 				INFOPLIST_FILE = "Chord_Library-Info.plist";
-				PRODUCT_NAME = "Chord Library";
+				PRODUCT_NAME = ChordLibrary;
 			};
 			name = Debug;
 		};
@@ -284,7 +284,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Chord_Library_Prefix.pch;
 				INFOPLIST_FILE = "Chord_Library-Info.plist";
-				PRODUCT_NAME = "Chord Library";
+				PRODUCT_NAME = ChordLibrary;
 			};
 			name = Release;
 		};

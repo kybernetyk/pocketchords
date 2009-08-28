@@ -50,7 +50,9 @@
 	
 	//autorelease
 	NSMutableArray *allChords = [NSMutableArray array];
-	for (NSString *file in [[NSFileManager defaultManager] enumeratorAtPath: [NSString stringWithFormat:@"%@/%@",[[NSBundle mainBundle] resourcePath],@"Chords"]])
+	for (NSString *file in [[NSFileManager defaultManager] enumeratorAtPath: [NSString stringWithFormat:@"%@/%@",
+																			  [[NSBundle mainBundle] resourcePath],
+																			  @"Chords"]])
 	{
 		//[allChords addObject: file];
 		NSString *filename = [[NSBundle mainBundle] pathForResource: file ofType:nil inDirectory:@"Chords"];
@@ -157,6 +159,7 @@
 	
 	// Configure the cell.
 	[[cell textLabel] setText: [root chordName]];
+	[cell setAccessoryType: UITableViewCellAccessoryDisclosureIndicator];
 	//NSManagedObject *managedObject = [fetchedResultsController objectAtIndexPath:indexPath];
 	
 	//cell.textLabel.text = [[managedObject valueForKey:@"timeStamp"] description];
@@ -177,7 +180,9 @@
 	QNChordRoot *theRoot = [allChordRoots objectAtIndex: [indexPath row]];
 	
 	
-	QNChordRootViewController *crvc = [[QNChordRootViewController alloc] initWithNibName:@"QNChordRootViewController" andChordRoot: theRoot];
+	QNChordRootViewController *crvc = [[QNChordRootViewController alloc] initWithNibName: @"QNChordRootViewController" 
+																			andChordRoot: theRoot];
+	
 	[[self navigationController] pushViewController: crvc animated: YES];
 	
 	[crvc release];

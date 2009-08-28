@@ -133,6 +133,7 @@
 	}
 	
 	[[cell textLabel] setText: caption];
+	[cell setAccessoryType: UITableViewCellAccessoryDisclosureIndicator];
 	//NSManagedObject *managedObject = [fetchedResultsController objectAtIndexPath:indexPath];
 	
 	//cell.textLabel.text = [[managedObject valueForKey:@"timeStamp"] description];
