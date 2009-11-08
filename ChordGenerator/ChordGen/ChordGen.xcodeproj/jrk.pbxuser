@@ -11,6 +11,9 @@
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -21,6 +24,7 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = ChordGen;
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 	};
@@ -29,6 +33,9 @@
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
 		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
 		};
 	};
 	03D10F011033174800B23069 /* Code sense */ = {
@@ -57,12 +64,6 @@
 		name = ChordGenAppDelegate.m;
 		path = "/Users/jrk/Desktop/Code/Chord Library/ChordGenerator/ChordGen/ChordGenAppDelegate.m";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = \"(NSIndexSet *)indexes\";\n            r = \"{3291, 25}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 5732}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1054, 3333}}";
-			sepNavSelRange = "{5555, 0}";
-			sepNavVisRange = "{1151, 1082}";
-		};
 	};
 	03D112F710343E6D00B23069 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -132,12 +133,24 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 271783721;
-			PBXWorkspaceStateSaveDate = 271783721;
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					1248.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 274290377;
+			PBXWorkspaceStateSaveDate = 274290377;
 		};
 		perUserProjectItems = {
-			03D112F710343E6D00B23069 /* PBXTextBookmark */ = 03D112F710343E6D00B23069 /* PBXTextBookmark */;
-			03D1144010344F3C00B23069 /* PBXTextBookmark */ = 03D1144010344F3C00B23069 /* PBXTextBookmark */;
+			03D112F710343E6D00B23069 = 03D112F710343E6D00B23069 /* PBXTextBookmark */;
+			03D1144010344F3C00B23069 = 03D1144010344F3C00B23069 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 03D10F001033174800B23069 /* Source Control */;
 		userBuildSettings = {

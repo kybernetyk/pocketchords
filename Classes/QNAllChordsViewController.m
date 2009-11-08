@@ -66,8 +66,8 @@
 			
 			return -1;
 		}
-		
 		[allChords addObject: cr];
+		[cr release];
 	}
 
 	//retaincount 1

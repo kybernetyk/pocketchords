@@ -112,7 +112,7 @@
 	QNChordNode *node = [chordNodesInRoot objectAtIndex:[indexPath row]];
 	
 	// Configure the cell.
-	NSString *caption;
+	NSString *caption = @"";
 	
 	if ([[node chordType] intValue] == QNChordTypeOpen)
 		caption = [NSString stringWithFormat:@"%@ - open",[node chordName]];
